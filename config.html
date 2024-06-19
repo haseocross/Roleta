@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configurar Roleta de Prêmios</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Configurar Roleta de Prêmios</h1>
+        <form id="prizeForm">
+            <div id="prizesContainer" class="prizes-container"></div>
+            <div class="buttons">
+                <button type="button" id="addPrizeBtn" class="btn">Adicionar Prêmio</button>
+                <button type="button" id="saveConfigBtn" class="btn">Salvar Configuração</button>
+            </div>
+        </form>
+        <div class="color-config">
+            <h3>Configurar Cores</h3>
+            <div class="color-picker">
+                <label for="textColor">Cor do Texto:</label>
+                <input type="color" id="textColor">
+            </div>
+            <div class="color-picker">
+                <label for="bgColor">Cor do Fundo:</label>
+                <input type="color" id="bgColor">
+            </div>
+            <button id="applyColorsBtn" class="btn">Confirmar Cores</button>
+        </div>
+        <a href="roleta.html" id="toRoletaPage" class="btn">Roleta</a>
+    </div>
+    <script src="config.js"></script>
+</body>
+</html>
